@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/smssetting_textView_setting"
+            android:text="设置"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="#ff8c03"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFFF00"
+            android:text="返回"
+            android:textSize="20sp"
+            android:id="@+id/smssetting_button_finish"
+            />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:id="@+id/smssetting_textView_airdoor"
+            android:text="保修风门电话:"
+            android:gravity="right"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14"
+            android:id="@+id/smssetting_ediText_airPhone"
+            android:inputType="phone"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/smssetting_button_airPhone"
+    android:text="确定"
+    android:background="@drawable/activity_button"
+    android:layout_gravity="right"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:id="@+id/smssetting_textView_motor"
+            android:text="保修电机电话:"
+            android:gravity="right"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="14"
+            android:id="@+id/smssetting_ediText_motorPhone"
+            android:inputType="phone"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/smssetting_button_motorPhone"
+        android:background="@drawable/activity_button"
+        android:text="确定"
+        android:layout_gravity="right"
+        />
+
+</LinearLayout>

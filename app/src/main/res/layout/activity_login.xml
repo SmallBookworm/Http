@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#e6e6e6"
+              android:orientation="vertical"
+              tools:context=".MainActivity"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+    >
+
+    <TextView
+        android:text="@string/login"
+        android:background="#ff8c03"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:orientation="horizontal"
+
+        >
+
+        <EditText
+            android:textSize="16sp"
+            android:background="@mipmap/login_border"
+            android:hint="  请输入用户名"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/login_editText_user"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:background="@mipmap/login_border"
+            android:textSize="16sp"
+            android:hint="  请输入密码"
+            android:singleLine="true"
+            android:layout_weight="7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:id="@+id/login_editText_identifyingcode"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:id="@+id/user_edit_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改用户信息"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#a7a7a7"
+        android:textSize="16sp"
+        android:layout_gravity="right"/>
+    <Button
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/login_button_login"
+        android:text="@string/login"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/login_button_login"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

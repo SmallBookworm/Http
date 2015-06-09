@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Http</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置URL</string>
+    <string name="action_phonesettings">设置发送电话号码</string>
+    <string name="airdoor">风门拍照</string>
+    <string name="motor">电机拍照</string>
+    <string name="login">登录</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="数据监控"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:id="@+id/monitor_textView_title"
+        android:background="#ff8c03"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="生产任务:"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:id="@+id/monitor_textView_duty"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Text"
+            android:textSize="25sp"
+            android:gravity="center"
+
+            android:id="@+id/monitor_textView_dutyshow"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="刷新"
+        android:id="@+id/monitor_button"
+
+        android:background="@drawable/activity_button"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="完成任务:"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:id="@+id/monitor_textView_finishduty"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Text"
+            android:textSize="25sp"
+            android:gravity="center"
+
+            android:id="@+id/monitor_textView_finishdutyshow"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="刷新"
+        android:id="@+id/monitor_button_finish"
+
+        android:background="@drawable/activity_button"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
